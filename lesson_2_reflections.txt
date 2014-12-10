@@ -20,3 +20,10 @@ They help me understand the tree sturcture of the commits.
 They help me know Which branches are reachable from what commits.
 It helps explain the detatched head messages received when checking out a branch.
 It helps visualize what will happen if you execute certain commands when a new branch is created.
+-----------------------
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+You consolidate the two branches into one.
+Generally by merging the 'changed' branch into the 'master' branch.
+This removes the branch label of the 'change' branch and keeps all the commits in the 'master' branch.
+The commits are merged by time-stamp.
+Representing it in the digagram shows still tracks each of the commits just without the branch name you can view when and perhaps by whom certain commits were created.
