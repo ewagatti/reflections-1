@@ -14,3 +14,9 @@ What are some situations when branches would be helpful in keeping your history 
 When you want to try something to see if it will work while keeping your original master copy clean.
 When you make changes to the master before finishing with your experimental branch
 Branching will allow you to continue developing while also letting you experiment knowing you can keep track of the history of changes for later merging.
+-----------------------
+How do the diagrams help you visualize the branch structure?
+They help me understand the tree sturcture of the commits.
+They help me know Which branches are reachable from what commits.
+It helps explain the detatched head messages received when checking out a branch.
+It helps visualize what will happen if you execute certain commands when a new branch is created.
