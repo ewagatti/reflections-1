@@ -27,3 +27,11 @@ Generally by merging the 'changed' branch into the 'master' branch.
 This removes the branch label of the 'change' branch and keeps all the commits in the 'master' branch.
 The commits are merged by time-stamp.
 Representing it in the digagram shows still tracks each of the commits just without the branch name you can view when and perhaps by whom certain commits were created.
+------------------------
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+If you have lots of code automatic merging gives you a good headstart on seeing where conflicts are possibly occuring
+If more than one person is making changes it highlights those changes for you.
+It shows the sections of code that were changed and by what commit and separates them with headers.
+However, you cannot tell from the automatic merge whether to keep or discard the conflicts it identifies
+You will need to try and understand the changes the other person made before you contact them to resolve the conflicts and this is time consuming
+Not all of the changes will be highlighted by the automatic merge if they don't create a conflict.
