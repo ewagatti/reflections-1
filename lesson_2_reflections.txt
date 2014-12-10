@@ -9,3 +9,8 @@ You get a chance to review if your moves are going to make sense before you actu
 -----------------------
 How can you use the staging area to make sure you have one commit per logical change?
 By using the git status; git add; git status; git commit; git log; git status sequence on each change you can isolate each change and step it through from beginning to end before starting on the next logical change
+-----------------------
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you want to try something to see if it will work while keeping your original master copy clean.
+When you make changes to the master before finishing with your experimental branch
+Branching will allow you to continue developing while also letting you experiment knowing you can keep track of the history of changes for later merging.
