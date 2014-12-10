@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+It creates a workspace for files common to your project.
+It allows you to track versions of all the files in your project in one place
+It allows you to annotate git comments to track the changes in your commits
+-----------------------
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Changes to the working directory and repository are permanent changes. The staging area allows you an interim step and location for moving files before actually commmiting them to the repository or working directory
+You get a chance to review if your moves are going to make sense before you actually finalize them
