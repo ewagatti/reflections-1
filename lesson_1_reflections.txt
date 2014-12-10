@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Having version lines side-by-side made reviewing simpler
+Added lines were easily visible to denote as changes
+Changes in lines were presented so spelling was easier to review on those lines
+Plus and minus signs were significant help in noticing deleted and/or added lines
+--------------
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+When you need to restore your version to a workable version after making changes that didn't work.
+Keeping different versions that try different things in them.
+Being able to combine portions of different versions as you build to the best model possible.
+Building a portfolio of work which helps you see how your desgin and code and test phases work so you can refine them.
+When you change your mind and want to develop using a different already used approach.
+----------------
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Con: You can forget and commits become way to big
+Con: You can forget and actually lose changes
+Con: You get confused on when to commit and make them either too small or too large
+Pro: Much more flexibility in when commits are made
+Pro: Ability to make commits that are much more logical
+Pro: Ability to break commits up into reason chunks based on feature change not time
+Pro: Ability to capture reason for commit and document
+Pro: Ability to commit with full feature correction rather than partial completion which would be meaningless to run.
+----------------
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Many projects involve more than one file which are interrelated. Changes in one file likely trigger changes in the other files which need to be tracked together.
+Google Docs is a system for handling individual documents. It is not a repository system.
+-------------------
+How can you use the commands git log and git diff to view the history of files?
+git log is the listing of all of the entire commit history so you view the entire version history. If the comments are added properly you can tell what the commit changed so you can access that particular commit.
+git diff shows exactly what changed and how between the two commits. it shows which lines from the old version were deleted and how many lines were added in the new version. It also shows what code changed in a particular block and shows unchanged code in the block as well. It tells which line numbers begin the deletions and which line numbers in the new version the adds begin with.
+-------------------------
+How might using version control make you more confident to make changes that could break something?
+You know that you will always have the last "clean" version of the code available prior to a bug even if you have made several commits before finding that you had a bug. If you commit at the right time, the bread-crumb trail will lead youu back to the version with the problem without worrying that the bug is permanent.
+------------------------
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to use it for shortcuts for sublime.
+I want to use it for file management
+I want to use it for version control management and for annotating commits
+I want to use it to manage repositories
